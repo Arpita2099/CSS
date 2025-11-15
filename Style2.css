@@ -1,0 +1,69 @@
+p{
+    color:brown
+}
+
+button{
+    color:black;
+    background-color: aquamarine;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+#box{
+    background-color:Blue;
+    /* color: white;*/
+}
+
+.heading{
+    color: red;
+}
+/* or we can also write
+h1, h2, h3{
+color:red;
+}*/
+
+button{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+}
+#h1{
+    font-weight: normal;
+}
+#h2{
+    font-weight: bold;
+}
+#h3{
+    font-weight: bolder;
+}
+#h4{
+    font-weight: lighter;
+}
+#p1{
+    font-size: 26px;
+}
+#p2{
+    font-size: 20px;
+}
+#p3{
+    font-size: 22px;
+}
+#para1{
+    line-height: 50px;
+}
+#head1{
+    text-align: center;
+    text-transform: capitalize;
+}
+#q2{
+    font-family: 'Times New Roman', Times, serif;
+}
+#one{
+    font-size: 25px;
+}
+#two{
+    font-size: 10px;
+}
