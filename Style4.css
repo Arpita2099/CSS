@@ -1,0 +1,56 @@
+/*Display Property
+Display: inline/block/inline-block/none
+
+inline-Takes only the space required by the element.(no margin/padding)
+block-Takes full space available in width.
+inline-block-Similar to inline but we can set margin and padding.
+none-To remove element from document flow.
+*/
+div{
+    background-color: pink;
+    display: block;
+}
+button{
+    display: block;
+}
+#box1{
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+    margin: 25px;
+    padding: 25px;
+    display:inline-block;
+}
+#box2{
+    background-color: green;
+    width: 100px;
+    height: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+/* Visibility
+visibility: hidden;
+
+Note: When visibility is set to none, space for the element is reserved. 
+But for display set to none , no space is reserved oe blocked for the element.
+*/
+
+/* Alpha Channel
+Opacity (0 to 1)
+
+RGBA
+color:rgba(255,0,0,0.5);
+color:rgba(255,0,0,1);
+Example of rgba is:
+*/
+#box3{
+    background-color:rgba(255, 0, 0, 0.3);
+    width: 100px;
+    height: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
