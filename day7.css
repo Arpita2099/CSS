@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+}
+#box1{
+    background-color: aqua;
+    align-items: 200px;
+}
+#box2{
+    background-color: pink;
+    height: 75px;
+}
+#box3{
+    background-color: brown;
+}
+#box4{
+    background-color: blueviolet;
+}
+#box5{
+    background-color: greenyellow;
+}
+
+/*
+Flexbox Direction
+It sets how flex items are placed in the flex container, along with axis and direction.
+-flex-direction: row;(default)
+-flex-direction: row-reverse;
+-flex-direction: column;
+-flex-direction: column-reverse;
+*/
+
+/*
+Flex Properties
+for flex container
+justify-content: alignment along the main axis.
+flex-start/ flex-end/ centre/ space-evenly/ space-between/ space-around/ space-evenly
+
+flex-wrap: nowrap/ wrap/ wrap-reverse
+
+align-items: alignment along the cross axis.
+
+align-content: alignment of space between and the content around.
+*/
+
+/*
+Flex Properties
+for flex item
+align-self: alignment of individual along the cross axis.
+
+flex-grow: how much a flex item will grow relative to the rest of the flex items if
+space is available.
+
+flex-shrink: how much a flex item will shrink relative to the rest of the space
+is available.
+*/
