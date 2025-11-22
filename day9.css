@@ -1,0 +1,58 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /*transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: steps(3);
+    transition-delay: 3s;*/
+    /*transform: rotate(45deg);*/
+    /*rotate: x 45deg*/
+    /*
+    CSS Transform
+    scale
+    transform: scale(2);
+    transform: scale(0,5);
+    transform: scale(1,2);
+
+    transform: scaleX(0.5);
+    transform: scale(0.5);
+    */
+   /* transform: scale(2,1);/*Change the size of the text.*/
+   transition: all 2s ease-in;
+}
+
+div:hover{
+    background-color: lightblue;
+    color: brown;
+    transform: scale(2);
+    transform: rotate(180deg);
+}
+div:active{
+    background-color: palevioletred;
+    color: white;
+}
+/*
+Transition Shorthand
+property name| duration| timing-function| delay
+
+transition: front-size 2s ease-in-out 0.2s;
+transition: all 2s ease-in 1s;
+*/
+
+/*
+CSS Transform
+Used to apply 2D and 3D transformations to an element
+-rotate
+
+transform: rotate(45eg);
+
+rotate: 45deg;
+rotateX: 45deg;
+rotateY: 45deg;
+rotateZ: 45deg;
+*/
