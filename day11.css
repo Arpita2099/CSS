@@ -1,0 +1,77 @@
+/*
+Animation 
+To animate CSS elements
+
+@keyframe myName{
+    from{ font-size: 20px;}
+    to{font-size: 40px;}
+}
+*/
+
+/*Animation Properties
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count: how many time should animation applied.
+animation-direction: What would be the direction of animation.
+*/
+div{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border-radius: 50%;
+    border: black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+   /* animation-name: colorAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: reverse;*/
+    animation:colorAnimation 2s ease-in 0s infinite normal;
+}
+
+/*@keyframes colorAnimation{
+    from{background-color: blue;}
+    to{background-color: red;}
+    from{
+        left:0px;
+        background-color: yellow;
+    }
+    to{
+        left:200px;
+        background-color: red;
+        color: white;
+    }
+}*/
+/*
+Animation Shorthand
+animation: myName 2s linear 3s infinite normal
+*/
+
+/* 
+% in Animation
+@keyframe myName{
+    0%{ font-size: 20px;}
+    50%{ font-size:30px}
+    100%{ font-size: 40px;}
+}
+*/
+@keyframes colorAnimation{
+    0% {
+        left: 0px;
+        background-color: yellow;
+    }
+    50%{
+        background-color: orange;
+    }
+    100%{
+        left: 300px;
+        background-color: red;
+        color: antiquewhite;
+    }
+
+}
